@@ -17,4 +17,4 @@ use App\Http\Controllers\UserController;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::get('/search', [UserController::class, 'search']);
+Route::get('/', [UserController::class, 'search']);
